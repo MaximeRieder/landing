@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+}
+.footer p {
+  color: rgb(200, 200, 200);
+}

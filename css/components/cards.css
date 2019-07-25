@@ -1,0 +1,39 @@
+/* Your card CSS file */
+.container-two {
+  margin: 40px 0;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-category {
+  width: 250px;
+  box-shadow: 0 5px 5px rgb(150, 150, 150)
+}
+
+.card-product {
+  background-image: url("../../images/ruby.jpg");
+  height: 140px;
+  width: 250px;
+}
+
+.card-trip {
+  background-color: white;
+  width: 230px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-trip h3 {
+  margin: 0 0 0 10px;
+
+ }
+
+ .card-trip p {
+  margin: 0 0 0 10px;
+  color: rgb(150, 150, 150);
+ }
